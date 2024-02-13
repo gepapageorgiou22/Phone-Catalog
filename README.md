@@ -11,26 +11,34 @@ The API url can be changed in appsettings.json, in the PhoneBook.Web project
 Use Cases
 Add entry to my phone book
 View phone book where I can search for entries (text box to search and list view)
-Data Structures
+
+Data Structures:
+
 PhoneBook {Name, Entries}
-ID
-Name
+-> ID
+-> Name
+
 Entry {Name, PhoneNumber}
-ID
-Name
-PhoneNumber
-PhoneBookID
-Project Structure
+-> ID
+-> Name
+-> PhoneNumber
+-> PhoneBookID
+-> Project Structure
+
 Frontend
-ASP.Net Core website
+-> ASP.Net Core website
+
 Backend
-ASP.Net Web API 2
-Entity Framework Core
+-> ASP.Net Web API 2
+-> Entity Framework Core
+
 Database
-LocalDB (SQL Server Express)
+-> LocalDB (SQL Server Express)
+
 Tools
-Visual Studio 2019 Community Edition
-.Net Core v2.2
+-> Visual Studio 2019 Community Edition
+-> .Net Core v2.2
+
 Todo
-Form validation
-User facing error messages (when API/DB is down)
+-> Form validation
+-> User facing error messages (when API/DB is down)
